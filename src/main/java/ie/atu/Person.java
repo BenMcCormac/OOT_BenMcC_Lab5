@@ -2,9 +2,9 @@ package ie.atu;
 
 public class Person
 {
-    String firstName;
-    String lastName;
-    int age;
+    private String firstName;
+    private String lastName;
+    private int age;
 
     //Constructor
     public Person(String firstName, String lastName, int age)
@@ -12,6 +12,12 @@ public class Person
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+    }
+
+    public Person() {
+        this.firstName = "";
+        this.lastName = "";
+        this.age = 0;
     }
 
     public void displayInfo()
