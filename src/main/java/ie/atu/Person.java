@@ -63,6 +63,6 @@ public class Person
 
     public void displayInfo()
     {
-        System.out.println("Name: " + firstName + "" + lastName + ", Age: " + age);
+        System.out.println("Name: " + getFirstName() + "" + getLastName() + ", Age: " + getAge());
     }
 }
