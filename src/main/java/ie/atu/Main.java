@@ -5,10 +5,10 @@ public class Main {
     {
         System.out.println("Hello World!");
         Person student1 = new Person("Paul", "Lennon", 30);
-        System.out.println("Details are: Name: " + student1.getFirstName() + " " +student1.getLastName() + " Age: " + student1.getAge());
+        student1.displayInfo();
 
         Person student0 = new Person();
-        System.out.println("Details are: Name: " + student0.getFirstName() + " " +student0.getLastName() + " Age: " + student0.getAge());
+        student0.displayInfo();
 
         student0.getUserInput();
         student0.displayInfo();
